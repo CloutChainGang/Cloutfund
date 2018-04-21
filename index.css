@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: #f6f6f6;
+}
+
+
+
+/*This is the entire header portion of the site*/
+#siteHeader{
+    text-align: center;
+    height: 15%;
+    background-color: #00225d;
+}
+/*This is site Headliner text*/
+#label{
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    font-size: 2em;
+}
+#navi{
+
+}
+
+
+
+/*This is the content portion*/
+#mainContent{
+    font-family: 'Raleway', sans-serif;
+    height: 85%;
+    background-color: #b5b7ba;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/*This is the footer portion of meta info on the site*/
+#siteFooter{
+    background-color: #000000;
+    height: 15%;
+}
