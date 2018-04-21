@@ -8,25 +8,36 @@ body{
 /*This is the entire header portion of the site*/
 #siteHeader{
     text-align: center;
-    height: 15%;
+    height: 20%;
     background-color: #00225d;
 }
 /*This is site Headliner text*/
 #label{
     font-family: 'Lobster', cursive;
     color: #ffffff;
-    font-size: 2em;
+    font-size: 3.5em;
 }
-#navi{
-
+#siteHeader ul{
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
 }
-
-
+#siteHeader li{
+    display: inline;
+}
+#siteHeader li a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: white;
+}
 
 /*This is the content portion*/
 #mainContent{
     font-family: 'Raleway', sans-serif;
-    height: 85%;
+    height: 80%;
     background-color: #b5b7ba;
     width: 80%;
     margin: auto;
